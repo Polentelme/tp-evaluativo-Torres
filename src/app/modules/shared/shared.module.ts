@@ -6,6 +6,7 @@ import {Component} from '@angular/core';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { AppRoutingModule } from 'src/app/app-routing.module';
 
 
 
@@ -16,7 +17,20 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     NavbarComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    AppRoutingModule,
+    MatIconModule,
+    MatButtonModule,
+    MatToolbarModule
+  ],
+  exports: [
+    FooterComponent,
+    NavbarComponent,
+    MatIconModule,
+    MatButtonModule,
+    MatToolbarModule    
   ]
 })
-export class SharedModule { }
+export class SharedModule { 
+
+}
