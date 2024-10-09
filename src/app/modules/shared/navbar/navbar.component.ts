@@ -32,6 +32,7 @@ export class NavbarComponent {
     // redirigimos a la raíz del sitio web
     this.servicioRutas.navigate(['/']);
   }
+  
 
   cambiarFondo(){
     let toggle: HTMLInputElement | null = document.getElementById('toggle') as HTMLInputElement

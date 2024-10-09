@@ -1,0 +1,24 @@
+.search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-container input {
+    margin-right: 5px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-container button {
+    padding: 5px;
+  }
+logo {
+    margin-right: 10px; /* Espacio entre el logo y el texto */
+  }
+  
+  .logo-image {
+    width: 40px; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantener la proporción */
+  }
+  
